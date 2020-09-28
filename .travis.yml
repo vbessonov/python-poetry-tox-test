@@ -14,7 +14,7 @@ matrix:
 
     - stage: Tests (Python 3.8)
       python: 3.8
-      env: TOXENV=py27,flake8,pylint
+      env: TOXENV=py38,pylint,flake8
 
 install:
   - pip install tox
